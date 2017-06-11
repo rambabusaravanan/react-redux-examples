@@ -11,3 +11,8 @@ Demo: [middleware-set-timeout](https://rambabusaravanan.github.io/react-redux-ex
 For exact changes needed for calling api using fetch by promises in middleware is [here](https://github.com/rambabusaravanan/react-redux-examples/commit/2a800d9e26cd3e923a5daadf21d99b501e825ceb?diff=unified)
 
 Demo: [middleware-with-fetch-api](https://rambabusaravanan.github.io/react-redux-examples/middleware-with-fetch-api)
+
+## 3. Api call using superagent http
+For exact changes needed for calling api using superagent promises in middleware is [here](https://github.com/rambabusaravanan/react-redux-examples/commit/8a13d3b0c7bfa400db2a7ca1416ee5685876c352)
+
+Demo: [middleware-with-superagent-http](https://rambabusaravanan.github.io/react-redux-examples/middleware-with-superagent-http)
