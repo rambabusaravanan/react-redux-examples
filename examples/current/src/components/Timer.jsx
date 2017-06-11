@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import request from 'superagent'
 
 class Counter extends React.Component {
   render() {
@@ -27,7 +28,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     start: () => { dispatch({ type: 'START' }) },
     stop: (id) => { dispatch({ type: 'STOP', intervalId: id }) },
-    send: (count) => { dispatch({ type: 'SEND', payload: fetch('http://echo.jsontest.com/counter/' + count) }) },
+    send: (count) => { dispatch({ type: 'SEND', payload: request.get('http://echo.jsontest.com/counter/' + count) }) },
   }
 }
 
